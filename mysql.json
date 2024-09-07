@@ -1,0 +1,23 @@
+{
+    "version": "8.4.2",
+    "description": "MySQL is a fast, multi-threaded, multi-user, and robust SQL database server.",
+    "homepage": "https://www.mysql.com/",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.2-winx64.zip",
+            "hash": "14d966ab6e16d24cba5eace7b7b4ecbb5de425b6869c64cf3f0b04a609ff0335",
+            "extract_dir": "mysql-8.4.2-winx64"
+        }
+    },
+    "bin": [
+        "bin\\mysql.exe",
+        "bin\\mysqldump.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\mysql.exe",
+            "MySQL"
+        ]
+    ]
+}
